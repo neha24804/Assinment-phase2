@@ -52,7 +52,7 @@ function validate()
 }
 
 function login()
-{   var flag1,flag2=false
+{   var flag1,flag2=false;
     if(!(eregex.test(email.value)))
     {
         error1.innerText="Invalid email";
