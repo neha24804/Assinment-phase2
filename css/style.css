@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/image/KT-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 120px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
+.info{
+    width: 90%;
+    color: white;
+    margin-top: 20%;
+    margin-left: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.myMargin{
+    
+    margin-left: 25%;
+
+}
+.info h1{
+    font-size: 62px;
+}
+.info p{
+    margin: 10px 0 40px;
+    font-size: 16px;
+    color: white;
+}
+
+.log-pg{
+
+    margin: 0;
+    padding: 0;
+    background: #DDD;
+    font-size: 16px;
+    color: #222;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-image: linear-gradient(rgba(7, 18, 63, 0.7),rgba(4,9,30,0.7)),url(/image/log-bg.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+  }
+.login {
+    border: 10px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    padding: 10%;
+    color: lavender;
+    
+}
+.login h2{
+    font-size: 50px;
+}
+.login-cont input[type="text"],
+input[type="password"]{
+    height: 2em;
+}
+.signup-link a{
+    color: lightcyan;
+}
+#login-button{
+    width: 200px;
+    height: 2em;
+}
+#pw{
+    padding: 5px;
+}
+#user{
+    padding: 5px;
+}
+
+.sign-pg{
+   
+    background-image: linear-gradient(rgba(9, 16, 29, 0.7),rgba(4,9,30,0.7)),url(/image/Kt-signbgi.jpg);
+    background-size: cover;
+    position: relative;
+    
+}
+.sign-box{
+    border: 10px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    padding: 10%;
+    color:white;
+    font-family: sans-serif;
+}
+.left input[type="text"],
+input[type="password"]{
+    height: 2em;
+    width: 250px;
+
+}
+
+.left input[type="submit"]{
+    width: 150px;
+    background-color: blanchedalmond;
+}
+.left input[type="submit"]:hover{
+    background-color: burlywood;
+    transition: 0.5s ease-in-out;
+}
+.dist-pg{
+   
+    background-image: linear-gradient(rgba(9,16,29,0.7),rgba(4,9,30,0.7)),url(/image/Kt-signbgi.jpg);
+    background-size: cover;
+    position: relative;
+    
+}
+
+.col-lg-8{
+    margin-left: 18%;
+}
+.place-pg{
+   
+    background-image: linear-gradient(rgba(52, 146, 80, 0.7),rgba(4,9,30,0.7));
+    background-size: cover;
+    position: relative;
+    
+}
+.content{
+    text-align: center;
+}
+.content p{
+    font-weight: bold;
+    margin: 50px;
+}
