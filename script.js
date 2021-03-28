@@ -44,42 +44,10 @@ function validate()
         error3.style.color="green";
         flag3=true;
     }
-        
+     flag2=true;
     if(flag1&&flag2&&flag3)
         return true;
     else
         return false;
-}
-
-function login()
-{   var flag1,flag2=false;
-    if(!(eregex.test(email.value)))
-    {
-        error1.innerText="Invalid email";
-        error1.style.color="red";
-    }
-    else
-    {
-        error1.innerText="Valid";
-        error1.style.color="green";
-        flag1=true;
-    }
-     if(!(pregex.test(pw.value)))
-    {
-        error3.innerText="Invalid password";
-        error3.style.color="red";
-    }
-    else
-    {
-        error3.innerText="Valid";
-        error3.style.color="green";
-        flag2=true;
-    }
-      if(flag1&&flag2)
-        return true;
-    else
-        return false;
-    
-    
 }
 
